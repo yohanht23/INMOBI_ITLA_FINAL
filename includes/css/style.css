@@ -1,0 +1,328 @@
+body{
+	background-color: #f5f5f5;
+	font-family: "Roboto", arial, sans-serif;
+}
+a:hover{
+	color: #EE5740 !important;
+	text-decoration: none !important;
+}
+header{
+	padding: 1rem;
+	background-color: #fff;
+}
+header .row{
+	display: flex;
+	align-items: center;
+}
+header .header-brand{
+	font-size: 28px;
+	font-weight: 500;
+	color: #E45740;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+header .header-brand img{
+	width: 50px;
+	margin-right: 0.5rem;
+	margin-top: -10px;
+}
+header .header-brand .light {
+	font-weight: lighter;
+	color: #333;
+	margin-left: 0.3rem;
+}
+header button, header input, header select, header .btn{
+	border-radius: 0px !important;
+}
+header .row .header-menu{
+	display: flex;
+	align-items: center;
+}
+header .row .header-menu .header-menu-item{
+	display: flex;
+	align-items: center;
+	margin: 0px 1rem;
+}
+header .row .header-menu .header-menu-item a{
+	color:#101010;
+	text-decoration: none;
+}
+header .row .header-menu .header-menu-item a.btn{
+	color: #fff;
+}
+header .row .header-menu .header-menu-item a.btn:hover{
+	color: #fff !important;
+}
+.categories {
+	background: #fff;
+	/* box-shadow: 0 1px 1px rgba(180, 180, 180, 0.5);*/
+	padding: 1.5rem 1.5rem 1rem;
+	border-radius: 0px;
+}
+
+.categories .item {
+	color: #4e575d;
+	font-size: 14px;
+	width: 100%;
+	background: url("../images/arrow-right.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+	border-bottom: 1px dotted #ddd;
+	padding: 8px 14px;
+}
+
+.categories .item a {
+	color: #4e575d;
+}
+.sort .btn{
+	border-radius: 0px !important;
+}
+
+.product{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	margin-bottom: 1rem;
+}
+.product img{
+	width: 100%;
+	height: 200px;
+}
+.product .product-block{
+	padding: 1rem;
+}
+.product .product-block .product-name{
+	text-align: center;
+}
+.product .product-block .product-name a{
+	font-size: 16px;
+	font-weight: 500px;	
+	text-transform: uppercase;
+	color: #555;
+}
+.product .product-block .product-name a:hover{
+	color: #EE5740;
+	text-decoration: none;
+}
+.product .product-block .product-price{
+	text-align: center;
+	text-transform: uppercase;
+	color:#EE5740;
+	font-size: 14px !important;
+	font-weight: bold;
+}
+.breadcrumb{
+	border-radius: 0px !important;
+	background-color: #fff !important;
+}
+a.breadcrumb-item{
+	color: #EE5740 !important;
+}
+
+.login, .register{
+	width: 100%;
+	background-color: #fff;
+	height: auto;
+	padding: 30px 35px 20px;
+}
+.login input, .register input{
+	border-radius: 0px !important; 
+}
+.login input:focus, .register input:focus{
+	border:1px solid #EE5740;
+}
+.login button, .register button, .pasos .btn{
+	background-color: #EE5740 !important;
+	color: #fff !important;
+	border-radius: 0px !important;
+	border: 1px solid #EE5740 !important;
+}
+.login a, .register a{
+	color: #EE5740 !important;
+}
+.login a:hover, .register a:hover{
+	text-decoration: underline !important;
+}
+.publicar-anuncio .ui.steps .step .title{
+	font-family: Roboto !important;
+	font-weight: 500;
+	font-size: 16px;
+}
+.publicar-anuncio .ui.steps .step .icon{
+	font-size: 22px;
+}
+.publicar-anuncio .ui.steps{
+	border: 0px !important;
+	border-radius: 0px !important;
+	background-color: #fff;
+	height: 50px;
+}
+.publicar-anuncio .ui.steps .step.active{
+	background-color: #fbfbfb !important;
+	background: #fbfbfb !important;
+}
+.ui.steps .step.active .title{
+	color: #EE5740 !important;
+}
+.publicar-anuncio .ui.steps .step.active:after{
+	background-color: #fafafa !important;
+}
+.pasos{
+	width: 100%;
+	background-color: #fff;
+	height: auto;
+	padding: 30px 35px 20px;
+	border-top: 1px solid #ddd;
+}
+.pasos input, .pasos select, .pasos textarea{
+	border-radius: 0px;
+}
+.pasos input:focus, .pasos select:focus, .pasos textarea:focus{
+	border: 1px solid #EE5740;
+}
+
+.btn-file {
+	position: relative;
+	overflow: hidden;
+}
+.btn-file input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+	text-align: right;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	outline: none;
+	background: white;
+	cursor: inherit;
+	display: block;
+}
+
+#map{
+	width: 100%;
+	height: 400px;
+}
+.controls {
+	background-color: #fff;
+	border-radius: 2px;
+	border: 1px solid transparent;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+	box-sizing: border-box;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	height: 29px;
+	margin-left: 17px;
+	margin-top: 10px;
+	outline: none;
+	padding: 0 11px 0 13px;
+	text-overflow: ellipsis;
+	width: 400px;
+}
+
+.controls:focus {
+	border-color: #4d90fe;
+}
+
+.footer {
+	background: #fff;
+	border-top: solid 1px #fff;
+	padding: 1.5rem 0;
+	font-size: 12px;
+	color: #4e575d;
+	letter-spacing: 0.5px;
+}
+.footer-nav{
+	list-style: none;
+	margin:0;
+}
+.footer-nav li{
+	margin:0;
+	padding: 0;
+}
+.footer-nav li a {
+	border-left: 1px solid #ddd;
+	color: #4e575d;
+	font-size: 12px;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+.footer-nav li a:first-child {
+	border-left: 0;
+}
+@media (max-width: 767px) {
+	.footer ul {
+		float: none;
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}
+	.footer ul:last-child {
+		margin-top: 20px;
+	}
+}
+
+.verAnuncioPrecio{
+	background-color: #EE5740;
+	color: #fff;
+	font-weight: 600;
+	padding: 0.5rem 1rem 0.5rem;
+	cursor: default;
+}
+
+.verAnuncioDetalles{
+	background-color: #fff;
+	padding: 2rem;
+}
+.registroExitoso{
+	background-color: #fff;
+	padding: 0.5rem 1rem;
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+.product-bot a.btn{
+	color: #fff !important;
+}
+.product-bot a.btn:hover{
+	color: #fff !important;
+}
+
+.admin-content{
+	padding: 1rem;
+	background-color: #fff;
+}
+.tabcontrol{
+	border-radius: 0px;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+.tabcontrol .nav-item{
+	width: 20%;
+}
+.tabcontrol .nav-link{
+	border-radius: 0px;
+}
+.card-header .nav-item .nav-link{
+	color: #fff !important;
+}
+.card-header .nav-item .nav-link.active{
+	color: #333 !important;
+}
+.usuarioEstandar, .crearCategoria{
+	padding: 2.5rem 2rem 1rem;
+	background-color: #fff;
+	overflow: auto;
+}
+.usuarioEstandar .btn, .usuarioEstandar .form-control, .crearCategoria .form-control, .crearCategoria .btn{
+	border-radius: 0px;
+}
+.usuarioEstandar .btn, .crearCategoria .btn{
+	background-color: #E45740;
+	color:#fff;
+}
+.usuarioEstandar .form-control:focus, .crearCategoria .form-control:focus{
+	border: 1px solid #E45740;
+}
